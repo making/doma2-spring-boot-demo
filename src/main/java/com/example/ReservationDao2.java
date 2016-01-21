@@ -7,9 +7,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@ConfigAutowireableDS1
+@ConfigAutowireableDS2
 @Dao
-public interface ReservationDao {
+public interface ReservationDao2 {
     @Select
     List<Reservation> selectAll();
 
